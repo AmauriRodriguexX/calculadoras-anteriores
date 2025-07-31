@@ -1,0 +1,162 @@
+
+#site-footer{
+    background: #fff;
+    font-size:14px;
+
+
+}
+
+#site-footer .first-row{
+    padding-top:60px;
+}
+#site-footer .second-row{
+    padding-top: 50px;
+
+}
+
+#site-footer .third-row{
+    padding-top: 10px;
+}
+
+
+
+#site-footer .wrap-first-section{
+    padding:20px 0 20px;
+    background: url("../assets/bg-footer-1.png") bottom center no-repeat;
+    background-size: 200% 120%;
+}
+
+
+.template-inea #site-footer .wrap-first-section{
+    background: none;
+}
+
+#site-footer .wrap-sub-footer{
+    background: #ce0058;
+    background-size: contain;
+    color:#fff;
+
+}
+
+#site-footer .wrap-sub-footer a{
+    color:#fff;
+}
+
+#site-footer .second-row:before{
+    position:absolute;
+
+
+}
+
+#site-footer {
+    color:#ce0058;
+}
+
+
+#site-footer > div{
+    padding:10px 0;
+}
+
+#site-footer img{
+    vertical-align: baseline;
+}
+
+
+#site-footer .logo{
+    padding-bottom:20px;
+}
+
+
+
+
+.footer-nav li{
+    padding:10px 8px;
+    position: relative;
+}
+
+
+.first-row .footer-nav li{
+    padding:5px !important;
+}
+
+
+
+.first-row .footer-nav li:last-of-type:after{
+    display:none;
+}
+
+.first-row .footer-nav li li:after{
+    display: none;
+}
+
+.first-row .footer-nav li a{
+    color:#ce0058;
+}
+
+
+#site-footer .social li{
+
+    padding: 0px 5px;
+}
+
+#site-footer .social li a{
+
+    font-size: 22px;
+}
+
+
+#site-footer .social .fa-facebook-f,
+#full-menu .fa-facebook-f{
+    color:#3B5998 !important;
+}
+
+#site-footer .social .fa-twitter,
+#full-menu .fa-twitter{
+    color:  #0084FF;
+}
+
+#site-footer .social .fa-youtube,
+#full-menu  .fa-youtube{
+    color:#CC181E;
+}
+
+#site-footer .social .fa-youtube{
+    color:#CC181E;
+}
+
+
+#site-footer .copy{
+
+    margin-top:20px;
+
+}
+
+#site-footer .copy .content{
+    border-top:2px solid rgba(255,255,255,0.4);
+    padding-top:25px;
+}
+
+
+
+@media (min-width: 992px){
+    .first-row .footer-nav li:after {
+        display: block;
+        content: '';
+        height: 20px;
+        border-left: 1px solid #ca1970;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-10px);
+    }
+
+    .first-row .footer-nav li{
+        padding:10px;
+    }
+
+
+    #site-footer .wrap-first-section {
+        background-size: 100% 100%;
+        background-position: top center;
+    }
+}
